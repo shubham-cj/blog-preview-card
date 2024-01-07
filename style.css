@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@200;600;800&display=swap');
+
+body {
+    font-family: "figtree";
+    background: hsl(47, 88%, 63%);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 120vh;
+}
+
+.card {
+    grid-column: 2/ span 14;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    align-self: center;
+    margin: 0 20px;
+    box-shadow: 8px 8px #000000;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card p {
+    background: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 15px 0 0;
+}
+.card h3 {
+    font-weight: lighter;
+    font-size: 12px;
+}
+.card h1 {
+    font-weight: 800;
+    font-size: 20px;
+}
+.card .para {
+    background: none;
+    padding: 0;
+    font-weight: 200;
+    color: hsl(0, 0%, 50%);
+    line-height: 18px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 5px;
+}
+.container img{
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+.container h4 {
+    margin: 0;
+}
+
+.attribution {
+    grid-column: span 16;
+    font-size: 11px; 
+    text-align: center; 
+    align-self: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 380px) {
+    .card {
+        margin: 0;
+        grid-column: 3/ span 12;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .card {
+        margin: 0;
+        grid-column: 4/ span 10;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .card {
+        margin: 0;
+        grid-column: 5/ span 8;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .card {
+        margin: 0 15px;
+        grid-column: 5/ span 8;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .card {
+        margin: 0;
+        grid-column: 6/ span 6;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card {
+        margin: 0 30px;
+        grid-column: 6/ span 6;
+        box-shadow: 8px 8px #000000;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .card {
+        margin: 0;
+        grid-column: 7/ span 4;
+        box-shadow: 10px 10px #000000;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .card {
+        margin: 0 35px;
+        grid-column: 7/ span 4;
+        box-shadow: 12px 12px #000000;
+    }
+}
