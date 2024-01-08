@@ -35,9 +35,14 @@ body {
     font-weight: lighter;
     font-size: 12px;
 }
-.card h1 {
+.card a {
+    color: #000000;
     font-weight: 800;
     font-size: 20px;
+    text-decoration: none; 
+}
+.card a:hover {
+    color: hsl(47, 88%, 63%);
 }
 .card .para {
     background: none;
