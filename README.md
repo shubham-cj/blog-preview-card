@@ -14,6 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Aknowledgements](#aknowledgements)
 
 ## Overview
 
@@ -75,3 +76,6 @@ I will definitely work on CSS-Flexbox
 - Frontend Mentor - [@shubham-cj](https://www.frontendmentor.io/profile/shubham-cj)
 - Twitter - [@tw_shubhamCJ](https://twitter.com/tw_shubhamCJ)
 
+## Aknowledgements
+
+I really appreciate and thanking to Frontend Mentor community member [Marcose Travaglini](https://www.frontendmentor.io/profile/Blackpachamame) for helping to get rid of errors in this project. Thank a lot.

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@200;600;800&display=swap');
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
@@ -10,8 +10,8 @@ body {
     background: hsl(47, 88%, 63%);
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 1fr auto; /* new */
-    min-height: 100vh; /* new */
+    grid-template-rows: 1fr auto; /* marcous */
+    min-height: 100vh; /* marcous */
 }
 
 .card {
