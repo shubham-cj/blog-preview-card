@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://shubham-cj.github.io/blog-preview-card/](https://shubham-cj.github.io/blog-preview-card/)
+- Solution URL: [click here to see my solution](https://www.frontendmentor.io/solutions/css-grid-for-responsive-page-flexbox-to-add-text-and-img-in-single-line-4blCk_99s1)
+- Live Site URL: [click here to see live site](https://shubham-cj.github.io/blog-preview-card/)
 
 ## My process
 
