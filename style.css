@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     display: block;
 }
-.card p {
+.card h1 {
     background: hsl(47, 88%, 63%);
     width: fit-content;
     padding: 5px 10px;
